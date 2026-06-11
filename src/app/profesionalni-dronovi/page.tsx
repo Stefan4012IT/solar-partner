@@ -8,10 +8,8 @@ import {
   dronePlatforms,
   missionApplications,
 } from "@/content/drone";
+import { assetPath } from "@/lib/assetPath";
 import styles from "./page.module.scss";
-
-const assetPath = (path: string) =>
-  `${process.env.GITHUB_PAGES === "true" ? "/solar-partner" : ""}${path}`;
 
 export const metadata: Metadata = {
   title: "Profesionalni dronovi za industriju i bezbednost | Autel Robotics Srbija",

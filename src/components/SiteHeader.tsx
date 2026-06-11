@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import styles from "@/app/page.module.scss";
+import styles from "./SiteHeader.module.scss";
 
 export function SiteHeader() {
   const [isVisible, setIsVisible] = useState(true);
